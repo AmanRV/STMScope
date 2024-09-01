@@ -1,0 +1,5 @@
+../Core/Src/scope.c:20:6:stopScope	1
+../Core/Src/scope.c:24:6:startScope	1
+../Core/Src/scope.c:30:7:findVPP	5
+../Core/Src/scope.c:54:6:mapScreen	13
+../Core/Src/scope.c:114:5:findTriggerRising	7

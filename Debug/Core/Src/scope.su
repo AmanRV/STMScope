@@ -1,0 +1,5 @@
+../Core/Src/scope.c:20:6:stopScope	16	static
+../Core/Src/scope.c:24:6:startScope	24	static
+../Core/Src/scope.c:30:7:findVPP	32	static
+../Core/Src/scope.c:54:6:mapScreen	56	static
+../Core/Src/scope.c:114:5:findTriggerRising	32	static

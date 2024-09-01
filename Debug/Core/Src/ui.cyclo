@@ -1,0 +1,17 @@
+../Core/Src/ui.c:116:6:drawWaveform	5
+../Core/Src/ui.c:138:6:scopeMenu	1
+../Core/Src/ui.c:174:6:drawGrid	3
+../Core/Src/ui.c:188:6:drawOscButtons	6
+../Core/Src/ui.c:258:6:drawUsbMode	2
+../Core/Src/ui.c:268:6:drawMenu1	1
+../Core/Src/ui.c:282:6:drawMenu2	4
+../Core/Src/ui.c:324:6:drawMenu3	4
+../Core/Src/ui.c:366:6:drawMenu4	4
+../Core/Src/ui.c:408:6:drawMenu5	4
+../Core/Src/ui.c:450:10:drawMenu6	6
+../Core/Src/ui.c:481:6:clearMenuFrame	1
+../Core/Src/ui.c:485:6:clearFullFrame	1
+../Core/Src/ui.c:489:6:drawTriggerLevel	1
+../Core/Src/ui.c:495:6:drawTriggerIcon	3
+../Core/Src/ui.c:505:6:drawCursors	13
+../Core/Src/ui.c:592:6:drawDiv	17
