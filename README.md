@@ -87,7 +87,7 @@ Schematic
 
 PCB
 ![PCB](images/PCB.png)
-![Printed PCB](images/printed-pcb.jpg)
+![Printed PCB](images/pcb-printed.png)
 
 
 ## Design Considerations
