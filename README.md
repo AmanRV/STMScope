@@ -3,7 +3,7 @@
 
 STMScope is a digital oscilloscope based on the STM32F4 microcontroller, designed as a personal project to gain hands-on experience in embedded systems development and to have a product which is suitable for basic lab use.
 
-![STMScope](images/STMScope.png)
+![STMScope](images/STMScope.jpg)
 
 **Key Features:**
 
