@@ -69,7 +69,7 @@ The goal of this design was to create a circuit capable of taking a -3.3V to 3.3
 
 The voltage attenuation was accomplished using a three-resistor network based on the following formula:
 
-$$ \[ V_{out} = \frac{V_{in}}{2} + \frac{V_{supply}}{2} \]
+$\[ V_{out} = \frac{V_{in}}{2} + \frac{V_{supply}}{2} \]
 
 Where $$ \( V_{supply} \) is the voltage provided to the top resistor and $$ \( V_{in} \) is the input voltage. This network maps -3.3V to 0V, while 3.3V remains unchanged. By utilizing this circuit and then adjusting in software using the same formula (solving for $$ \( V_{in} \)), I was able to extend the ADC's measurement capability to a higher range of voltages.
 
