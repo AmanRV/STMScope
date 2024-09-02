@@ -104,7 +104,7 @@ A crucial aspect of the ADC design was implementing a timer to control the ADC s
 
 By configuring the timer's prescaler and the auto-reload value (ARR), I could precisely set the desired frequency rate for the timer. The frequency is determined using the following formula:
 
-<img src="https://latex.codecogs.com/svg.latex?\color{white}\huge&space;\text{Frequency%20for%201%20Tick}%20=%20\frac{\text{Timer%20Clock%20Frequency}}{(\text{PSC}%20+%201)%20\times%20(\text{ARR}%20+%201)}" />
+<img src="https://latex.codecogs.com/svg.latex?\color{white}\huge&space;Frequency\ for\ 1\ Tick\ =\ \frac{Timer\ Clock\ Frequency}{(PSC\ +\ 1)\ \times\ (ARR\ +\ 1)}" />
 
 This formula calculates the frequency of one timer tick. To determine the time required for one complete waveform measurement, I multiplied this frequency by the number of data points (312) and then took the reciprocal to find the total measurement time.
 
