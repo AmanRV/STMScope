@@ -82,6 +82,18 @@ Input voltage protection is achieved using two diodes that clamp the voltage ide
 ## PCB Design
 To integrate all the components and circuits efficiently, I decided to design a custom PCB. The PCB was created using Altium, which allowed me to precisely layout the circuitry with defined areas where the user should connect their inputs and ouutputs instead of using a breadboard. This design not only helps in compactly housing all the elements but also improves the overall performance and stability of the system.
 
+## Desktop App
+
+The desktop app is developed in Python, utilizing the CustomTkinter for the graphical user interface, along with Matplotlib and Numpy for data visualization and processing. It serves as an interface to control and monitor the data flow from the hardware via USB CDC communication. The main features of the app include:
+
+- Running sweeps of the waveform
+  
+- Toggling AFE mode
+
+- Graph Scaling and Shifting
+
+![Desktop](images/desktop.png)
+
 Schematic
 ![Schematic](images/schematic.png)
 
